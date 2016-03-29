@@ -1,6 +1,7 @@
 body{
   background-color: #FFFFFB;
   font-family: 'Open Sans Condensed', sans-serif;
+  position: relative;
 }
 .menu{
   display: inline-block;
@@ -8,19 +9,25 @@ body{
   height: 100%;
   font-size: 24px;
 }
+.menu a{
+  color: #5F7619;
+}
 .menu ul{
   list-style-type: none;
 }
-.home-main{
+.main{
   display: inline-block;
-  width: 69%;
+  width: 65%;
   height: 500px;
   background: url('images/3.jpg');
   color: #486B26;
 }
-.home-main h1{
-  font-size: 41px;
-  font-weight: 700;
+  .main h1{
+    font-size: 41px;
+    font-weight: 700;
+  }
+.text{
+  margin-left: 25px;
 }
 footer{
   width: 100%;
@@ -28,7 +35,12 @@ footer{
   text-align: center;
   background: #486B26;
   font-size: 18px;
+  position: fixed;
+  bottom: 0;
 }
   footer li{
     display: inline;
+  }
+  footer a{
+    color: #A1B422;
   }
