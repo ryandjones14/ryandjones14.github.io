@@ -2,6 +2,7 @@ body{
   background-color: #FFFFFB;
   font-family: 'Open Sans Condensed', sans-serif;
   position: relative;
+  background: url('images/3.jpg') no-repeat right;
 }
 .menu{
   display: inline-block;
@@ -19,7 +20,6 @@ body{
   display: inline-block;
   width: 65%;
   height: 500px;
-  background: url('images/3.jpg');
   color: #486B26;
 }
   .main h1{
