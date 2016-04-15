@@ -6,24 +6,31 @@ body{
   background-size: cover;
 }
 .menu{
-  display: inline-block;
-  width: 30%;
+/*  display: inline-block;
+*/  width: 30%;
   height: 100%;
   font-size: 24px;
-  margin-top: 50px;
+  margin-top: 0px;
+  padding: 10px;
+  position: relative;
+  top: 30px;
 }
 .menu a{
   color: #5F7619;
 }
 .menu ul{
+  margin-top: 10px;
   list-style-type: none;
 }
 .main{
-  display: inline-block;
+  /*display: inline-block*/;
   width: 65%;
   height: 500px;
   color: #486B26;
   text-align: right;
+  position: absolute;
+  top: 30px;
+  left: 30%;
 }
   .main h1{
     font-size: 41px;
@@ -43,6 +50,7 @@ footer{
 }
   footer li{
     display: inline;
+    padding: 0 10px;
   }
   footer a{
     color: #A1B422;
