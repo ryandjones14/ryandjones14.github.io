@@ -1,8 +1,9 @@
 body{
   background-color: #FFFFFB;
-  font-family: 'Open Sans Condensed', sans-serif;
+  font-family: 'Oswald', sans-serif;
   position: relative;
-  background: url('images/3.jpg') no-repeat right;
+  background: url('images/3.jpg') center fixed;
+  background-size: cover;
 }
 .menu{
   display: inline-block;
