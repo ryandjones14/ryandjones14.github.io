@@ -1,0 +1,72 @@
+body{
+  background-color: #FFFFFB;
+  font-family: 'Oswald', sans-serif;
+  /*position: relative;*/
+  background: #ebe5e2 center fixed;
+  text-align: center;
+}
+.container{
+}
+#home{
+  background: url('../images/3.jpg') center fixed;
+  background-size: cover;
+}
+
+#main{
+  /*display: inline-block*/;
+  width: 960px;
+  height: 500px;
+  color: #486B26;
+  text-align: center;
+  /*position: absolute;*/
+  top: 30px;
+  left: 30%;
+}
+  #main h1{
+    font-size: 41px;
+    font-weight: 700;
+  }
+.text{
+  /*margin-left: 25px;*/
+}
+#myProjects{
+  position: relative;
+  text-align: center;
+  margin-top: 0;
+}
+  #myProjects img{
+    width: 100%;
+  }
+.project{
+  width: 60%;
+  /*background: rgba(250,250,250,.9);*/
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+.project div{
+  height: 100px;
+}
+.project p{
+
+  color: #486B26;
+  background: rgba(250,250,250,.85);
+  position: relative;
+  top: -100%;
+}
+footer{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  background: #486B26;
+  font-size: 18px;
+  position: fixed;
+  bottom: 0;
+}
+  footer li{
+    display: inline;
+    padding: 0 10px;
+  }
+  footer a{
+    color: #A1B422;
+  }

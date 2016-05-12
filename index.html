@@ -4,21 +4,35 @@
   <title>Ryan Jones</title>
   <link href='https://fonts.googleapis.com/css?family=Oswald:300' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+  <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+  <script src="javascripts/main.js"></script>
 </head>
-<body>
-  <div class="menu">
-    <ul>
-      <li><a href="index.html">home</a></li>
-      <li><a href="about.html">about</a></li>
-      <li><a href="portfolio.html">portfolio</a></li>
-    </ul>
-  </div>
-  <div class="main">
-    <div class="text">
+<body id="home">
+  <div id="main">
+    <div class="home show">
       <h1>Ryan Jones</h1>
-      <!-- <img src="images/1.jpg" alt="Ryan" width="750px"> -->
       <p>Full-stack web developer based in Austin, TX.</p>
+    </div>
+    <div class="projects">
+      <div class="project-info">
+        <h2>My Projects</h2>
+        <p>These are a sample of the projects that I have worked on. To see more, visit my GitHub page below.</p>
+      </div>
+      <div id="myProjects">
+        <article class="project">
+          <img src="images/tictactoe.jpg">
+          <div>
+            <p class="hide">This game was built using HTML, CSS, and jQuery. My proudest accomplishment for this project was the feature that shows whose turn it is, indicated by theyellow bar under the X or O.<br><a href="https://github.com/ryandjones14/tic-tac-toe">GitHub Repo</a></p>
+          </div>
+        </article>
+        <article class="project">
+          <img src="images/bandspy.jpg">
+          <div>
+            <p class="hide">This app was built by a team of students, including myself, from General Assembly's Web Development Immersive in Austin using HTML, CSS, and Ruby on Rails and is connected to a PostgreSQL database. My role on this project was to develop the back-end code. BandSpy is powered by the Bandsintown API. My prodest accomplishment from this project was adding the follow feature that allows users to keep up with their favorite bands.<br><a href="https://github.com/ryandjones14/bandspy_app">GitHub Repo</a></p>
+          </div>
+        </article>
+      </div>
     </div>
   </div>
   <footer>
