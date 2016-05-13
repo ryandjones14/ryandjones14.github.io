@@ -50,18 +50,23 @@ a{
 .main{
   max-width: 960px;
   width: 80%;
-  /*height: 500px;*/
   position: relative;
   top: 200px;
   margin: 0 auto;
 }
 
+.projects{
+  width: 100%;
+  font-size: 0;
+}
+
 .project{
-  width: 30%;
+  width: 45%;
+  min-width: 300px;
+  font-size: 15px;
   margin: 0 15px;
   text-align: center;
   display: inline-block;
-  /*position: relative;*/
 }
 
   .project img{
