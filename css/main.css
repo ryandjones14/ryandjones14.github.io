@@ -23,6 +23,7 @@ a{
   height: 125px;
   position: absolute;
   top: 0;
+  border-bottom: 2px solid #486B26;
 }
 
   .header__content{
@@ -47,6 +48,12 @@ a{
     text-align: right;
   }
 
+    li:hover{
+      color: #284B10;
+      text-decoration: underline;
+      cursor: pointer;
+    }
+
 .main{
   max-width: 960px;
   width: 80%;
@@ -67,6 +74,7 @@ a{
   margin: 0 15px;
   text-align: center;
   display: inline-block;
+  position: relative;
 }
 
   .project img{
@@ -77,10 +85,14 @@ a{
     height: 100px;
     color: #486B26;
     background: rgba(250,250,250,.85);
-    position: relative;
+    position: absolute;
     bottom: 0;
-    position: relative;
+    width: 100%;
     z-index: 2;
+  }
+
+  .project__text h3{
+    text-decoration: underline;
   }
 
 footer{
