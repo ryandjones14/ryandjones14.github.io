@@ -8,41 +8,49 @@
   <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
   <script src="javascripts/main.js"></script>
 </head>
-<body id="home">
+<body>
+
   <header class="header">
-    <div class="intro">
-      <h1>Ryan Jones</h1>
-      <p>Full-stack web developer based in Austin, TX.</p>
+    <div class="header__content">
+      <div class="intro">
+        <h1><a href='index.html'>Ryan Jones</a></h1>
+        <p>Full-stack web developer based in Austin, TX.</p>
+      </div>
+      <div class="menu">
+        <ul>
+          <li class="menu__about">About</li>
+          <li class="menu__contact">Contact</li>
+          <li class="menu__projects">Projects</li>
+        </ul>
+      </div>
     </div>
-    <div class="menu">
-      <ul>
-        <li>About</li>
-        <li>Contact</li>
-        <li>Projects</li>
-      </ul>
-    </div>
-  </header><!-- /header -->
-  <div id="main">
+  </header>
+
+  <div class="main">
 
     <div class="projects">
-      <div class="project-info">
-        <h2>My Projects</h2>
-        <p>These are a sample of the projects that I have worked on. To see more, visit my GitHub page below.</p>
-      </div>
-      <div id="myProjects">
-        <article class="project">
-          <img src="images/tictactoe.jpg">
-          <div>
-            <p class="hide">This game was built using HTML, CSS, and jQuery. My proudest accomplishment for this project was the feature that shows whose turn it is, indicated by theyellow bar under the X or O.<br><a href="https://github.com/ryandjones14/tic-tac-toe">GitHub Repo</a></p>
-          </div>
-        </article>
-        <article class="project">
-          <img src="images/bandspy.jpg">
-          <div>
-            <p class="hide">This app was built by a team of students, including myself, from General Assembly's Web Development Immersive in Austin using HTML, CSS, and Ruby on Rails and is connected to a PostgreSQL database. My role on this project was to develop the back-end code. BandSpy is powered by the Bandsintown API. My prodest accomplishment from this project was adding the follow feature that allows users to keep up with their favorite bands.<br><a href="https://github.com/ryandjones14/bandspy_app">GitHub Repo</a></p>
-          </div>
-        </article>
-      </div>
+      <article class="project">
+        <div class="project__text hide">
+          <h4>Tic||Tac||Toe</h4>
+          <p>HTML, CSS, jQuery<br><a href="https://github.com/ryandjones14/tic-tac-toe">GitHub Repo</a></p>
+        </div>
+        <span>
+          <a href="#"><img src="images/tictactoe.jpg"></a>
+        </span>
+      </article>
+      <article class="project">
+        <div class="project__text hide">
+          <h4>BandSpy</h4>
+          <p>HTML, CSS, Ruby on Rails, PostgreSQL<br><a href="https://github.com/ryandjones14/bandspy_app">GitHub Repo</a></p>
+        </div>
+        <span>
+          <a href="#"><img src="images/bandspy.jpg"></a>
+        </span>
+      </article>
+    </div>
+
+    <div class="about hide">
+      <p>Howdy! I graduated from Texas A&M University with a degree in Sports Management. I love sports, both playing and watching. After moving to Austin, I joined the Run Free Texas team as a Team Leader for the duration of three programs and am deeply passionate about using sports as a way to help others. I love being outdoors and am constantly looking for new places to hike and play outside with my wife, Kelly, and our dog, Indiana.</p>
     </div>
   </div>
   <footer>
