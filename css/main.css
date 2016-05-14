@@ -54,6 +54,12 @@ a{
       cursor: pointer;
     }
 
+    .active{
+      color: #789B56;
+      text-transform: uppercase;
+      font-size: 18px;
+    }
+
 .main{
   max-width: 960px;
   width: 80%;
