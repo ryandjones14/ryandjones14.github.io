@@ -153,25 +153,34 @@ footer{
 @media (max-width: 824px) {
     .project {
         width: 80%;
+        min-width: 0;
     }
 }
 
 /*MOBILE STYLING*/
 
-/*@media (max-width: 650px) {
+@media (max-width: 650px) {
     .header{
+      width: 100%;
       height: 125px;
     }
-    .header__content .hamburger{
+    .header .header__content{
+      position: relative;
       display: inline-block;
+      width: 95%;
+    }
+  /*  .header__content .hamburger{
+      display: inline-block;
+    }*/
+    .header__content .intro{
+      width: 150px;
+      float: left;
     }
     .header__content .menu{
-      display: none;
-    }
-    .header__content .intro p{
-      display: none;
+      position: relative;
+      top: 47px;
     }
     .main{
       top: 150px;
     }
-}*/
+}
