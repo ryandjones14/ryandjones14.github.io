@@ -156,7 +156,9 @@ footer{
     }
 }
 
-@media (max-width: 650px) {
+/*MOBILE STYLING*/
+
+/*@media (max-width: 650px) {
     .header{
       height: 125px;
     }
@@ -172,4 +174,4 @@ footer{
     .main{
       top: 150px;
     }
-}
+}*/
