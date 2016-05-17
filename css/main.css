@@ -17,6 +17,10 @@ a{
     color: #284B10;
   }
 
+  a:visited{
+    color: #486B26;
+  }
+
 .header{
   background: #F8F6F3;
   width: 100%;
@@ -43,9 +47,14 @@ a{
     text-align: left;
   }
 
+  .menu ul{
+    text-align: right;
+  }
+
   .menu li{
     list-style: none;
     text-align: right;
+    /*width: 70px;*/
   }
 
     li:hover{
@@ -58,6 +67,10 @@ a{
       color: #789B56;
       text-transform: uppercase;
       font-size: 18px;
+    }
+
+    .header__hamburger{
+      height: 100px;
     }
 
 .main{
@@ -126,3 +139,9 @@ footer{
   footer a{
     color: #A1B422;
   }
+
+@media (max-width: 824px) {
+    .project {
+        width: 80%;
+    }
+}

@@ -2,7 +2,6 @@ $(function(){
 
   function pageLoaded(){
     $('.menu__projects').addClass('active');
-    console.log("PAGE LOADED!");
   }
 
   window.onload = pageLoaded();
