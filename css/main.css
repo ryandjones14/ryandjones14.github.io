@@ -69,8 +69,8 @@ a{
       font-size: 18px;
     }
 
-    .header__hamburger{
-      height: 100px;
+    .header__content .hamburger{
+      display: none;
     }
 
 .main{
@@ -140,12 +140,36 @@ footer{
     color: #A1B422;
   }
 
-  footer a:visited{
-    color: #A1B422;
-  }
+    footer a:visited{
+      color: #A1B422;
+    }
+
+    footer a:hover{
+      color: #ffffff;
+    }
+
+
 
 @media (max-width: 824px) {
     .project {
         width: 80%;
+    }
+}
+
+@media (max-width: 650px) {
+    .header{
+      height: 125px;
+    }
+    .header__content .hamburger{
+      display: inline-block;
+    }
+    .header__content .menu{
+      display: none;
+    }
+    .header__content .intro p{
+      display: none;
+    }
+    .main{
+      top: 150px;
     }
 }
