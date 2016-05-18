@@ -13,8 +13,6 @@ $(function(){
   }
 
   function pickBackground(num){
-    console.log(num);
-
     setInterval(function(){
       num++;
       if(num>2){
