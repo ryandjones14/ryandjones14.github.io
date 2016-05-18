@@ -156,8 +156,11 @@ footer{
 
 @media (max-width: 824px) {
     .project {
-        width: 80%;
+        width: 70%;
         min-width: 0;
+    }
+    .main .projects {
+      text-align: center;
     }
 }
 
