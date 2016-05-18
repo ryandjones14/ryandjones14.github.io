@@ -22,7 +22,7 @@ $(function(){
       }
       console.log(num);
       changeBackground(num)
-    }, 5000);;
+    }, 60000);;
   }
 
   window.onload = pickBackground(0);
