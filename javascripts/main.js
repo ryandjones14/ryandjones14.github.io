@@ -22,14 +22,10 @@ $(function(){
       }
       console.log(num);
       changeBackground(num)
-    }, 30000);;
+    }, 5000);;
   }
 
-  function addClass(){
-    setTimeout(function(){pickBackground(0)}, 0);
-  }
-
-  window.onload = addClass();
+  window.onload = pickBackground(0);
 
 
 
