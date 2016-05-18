@@ -1,11 +1,25 @@
 body{
   background-color: #FFFFFB;
   font-family: 'Oswald', sans-serif;
-  /*position: relative;*/
   background: #ebe5e2 center fixed;
   text-align: center;
   color: #486B26;
   background: url('../images/3.jpg') center fixed;
+  background-size: cover;
+}
+
+.back2{
+  background: url('../images/2.jpeg') center fixed;
+  background-size: cover;
+}
+
+.back3{
+  background: url('../images/3.jpg') center fixed;
+  background-size: cover;
+}
+
+.back4{
+  background: url('../images/4.jpg') center fixed;
   background-size: cover;
 }
 
@@ -156,12 +170,21 @@ footer{
 
 @media (max-width: 824px) {
     .project {
-        width: 70%;
-        min-width: 0;
+      width: 70%;
+      min-width: 0;
+      margin-bottom: 30px;
+    }
+    .project__text{
+      height: 100%;
+      font-size: 10px;
+    }
+    h3{
+      font-size: 18px;
     }
     .main .projects {
       text-align: center;
     }
+
 }
 
 /*MOBILE STYLING*/

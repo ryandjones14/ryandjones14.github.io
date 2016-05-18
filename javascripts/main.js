@@ -6,6 +6,33 @@ $(function(){
 
   window.onload = pageLoaded();
 
+  function changeBackground(i){
+    var backs = [3,2,4];
+    $('body').removeClass();
+    $('body').addClass('back'+backs[i]);
+  }
+
+  function pickBackground(num){
+    console.log(num);
+
+    setInterval(function(){
+      num++;
+      if(num>2){
+        num = 0;
+      }
+      console.log(num);
+      changeBackground(num)
+    }, 30000);;
+  }
+
+  function addClass(){
+    setTimeout(function(){pickBackground(0)}, 0);
+  }
+
+  window.onload = addClass();
+
+
+
   $('.project').mouseenter(function() {
     $(this).children('.project__text').toggleClass('hide');
   });
