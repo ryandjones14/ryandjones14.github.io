@@ -18,7 +18,6 @@ $(function(){
       if(num>2){
         num = 0;
       }
-      console.log(num);
       changeBackground(num)
     }, 60000);;
   }
