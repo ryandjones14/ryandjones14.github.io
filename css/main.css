@@ -39,11 +39,9 @@ a{
   height: 125px;
   position: absolute;
   top: 0;
-  border-bottom: 2px solid #292D25;
 }
 
   .header__content{
-    max-width: 900px;
     width: 80%;
     font-size: 0px;
     margin: 0 auto;
