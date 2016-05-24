@@ -6,10 +6,10 @@ body{
   background-size: cover;
 }
 
-.wrapper{
+/*.wrapper{
   background: rgba(248, 246, 243, .4) center fixed;
   height: 100%;
-}
+}*/
 
 .back2{
   background: url('../images/2.jpeg') center fixed;
