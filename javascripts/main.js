@@ -27,10 +27,10 @@ $(function(){
 
 
   $('.project').mouseenter(function() {
-    $(this).children('.project__text').toggleClass('hide');
+    $(this).children('.project__text').toggleClass('hide').toggleClass('show');
   });
   $('.project').mouseleave(function() {
-    $(this).children('.project__text').toggleClass('hide');
+    $(this).children('.project__text').toggleClass('show').toggleClass('hide');
   });
 
   $('.menu__about').on('click', function() {
