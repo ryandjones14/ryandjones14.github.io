@@ -6,23 +6,23 @@ $(function(){
 
   window.onload = pageLoaded();
 
-  function changeBackground(i){
-    var backs = [3,2,4];
-    $('body').removeClass();
-    $('body').addClass('back'+backs[i]);
-  }
+  // function changeBackground(i){
+  //   var backs = [3,2,4];
+  //   $('body').removeClass();
+  //   $('body').addClass('back'+backs[i]);
+  // }
 
-  function pickBackground(num){
-    setInterval(function(){
-      num++;
-      if(num>2){
-        num = 0;
-      }
-      changeBackground(num)
-    }, 60000);;
-  }
+  // function pickBackground(num){
+  //   setInterval(function(){
+  //     num++;
+  //     if(num>2){
+  //       num = 0;
+  //     }
+  //     changeBackground(num)
+  //   }, 60000);;
+  // }
 
-  window.onload = pickBackground(0);
+  // window.onload = pickBackground(0);
 
 
 
