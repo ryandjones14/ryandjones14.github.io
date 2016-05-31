@@ -19,7 +19,7 @@ $(function(){
         num = 0;
       }
       changeBackground(num)
-    }, 5000);;
+    }, 30000);;
   }
 
   window.onload = pickBackground(0);
