@@ -4,6 +4,10 @@ body{
   color: #292D25;
   background-color: #F8F6F3;
   overflow: scroll;
+  position: relative;
+  min-height: 100%;
+  padding-bottom: 230px;
+  margin: 0;
 }
 
 a{
@@ -107,7 +111,8 @@ a{
   background: #F8F6F3;
 }
 
-#greeting{
+.greeting{
+  background: url('../images/3.jpg') center center fixed;
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -115,42 +120,11 @@ a{
   margin: 125px 0 0 0;
 }
 
-.text2{
-  background: url('../images/2.jpeg') center center fixed;
-}
-
-.text3{
-  background: url('../images/3.jpg') center center fixed;
-}
-
-.text4{
-  background: url('../images/4.jpg') center center fixed;
-}
-  .text2 p{
+  .greeting p{
     position: relative;
     top: 24%;
-    letter-spacing: 75px;
-    font-size: 200px;
-    color: #F8F6F3;
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .text3 p{
-    position: relative;
-    top: 24%;
-    letter-spacing: 75px;
-    font-size: 200px;
-    color: #F8F6F3;
-    width: 90%;
-    margin: 0 auto;
-  }
-
-  .text4 p{
-    position: relative;
-    top: 24%;
-    letter-spacing: 75px;
-    font-size: 200px;
+    letter-spacing: 10px;
+    font-size: 40px;
     color: #F8F6F3;
     width: 90%;
     margin: 0 auto;
@@ -215,12 +189,19 @@ footer{
   text-align: center;
   background: #292D25;
   font-size: 18px;
-  position: fixed;
+  clear: both;
+  position: absolute;
+  right: 0;
   bottom: 0;
+  left: 0;
 }
+  footer ul{
+    margin: 0;
+  }
   footer li{
     display: inline;
     padding: 0 10px;
+
   }
   footer a{
     color: #848583;
@@ -253,9 +234,9 @@ footer{
       text-align: center;
       margin-top: 20px;
     }
-    #greeting p{
+    .greeting p{
       width: 90%;
-      font-size: 120px;
+      font-size: 60px;
       letter-spacing: 25px;
     }
 
@@ -268,14 +249,11 @@ footer{
       width: 100%;
       height: 75px;
     }
-    .header2 .header__content{
+    /*.header2 .header__content{
       position: relative;
       display: inline-block;
       width: 100%;
     }
-  /*  .header__content .hamburger{
-      display: inline-block;
-    }*/
     .header__content .intro{
       width: 150px;
       float: left;
@@ -300,7 +278,7 @@ footer{
     .header2 li {
         display: inline;
         margin: 0px 5px;
-    }
+    }*/
     .main{
       top: 150px;
     }
@@ -315,13 +293,13 @@ footer{
       padding: 0;
       margin: 0 auto;
     }
-    #greeting{
+    .greeting{
       height: 300px;
     }
-    #greeting p{
+    .greeting p{
       width: 90%;
-      font-size: 60px;
-      letter-spacing: 25px;
+      font-size: 30px;
+      letter-spacing: 5px;
       position: relative;
       top: 30%;
     }
