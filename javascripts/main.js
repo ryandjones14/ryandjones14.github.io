@@ -4,7 +4,7 @@ $(function(){
     $('.menu__projects').addClass('active');
   }
 
-  // window.onload = pageLoaded();
+  window.onload = pageLoaded();
 
   // function changeBackground(i){
   //   var backs = [3,2,4];
