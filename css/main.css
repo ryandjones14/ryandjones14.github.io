@@ -134,6 +134,7 @@ a{
     color: #AD7767;
     width: 90%;
     margin: 0 auto;
+    text-shadow: -1px 0 #F8F6F3, 0 1px #F8F6F3, 1px 0 #F8F6F3, 0 -1px #F8F6F3;
   }
 
   .text3 p{
@@ -144,6 +145,7 @@ a{
     color: #F8F6F3;
     width: 90%;
     margin: 0 auto;
+    text-shadow: -1px 0 #292D25, 0 1px #292D25, 1px 0 #292D25, 0 -1px #292D25;
   }
 
   .text4 p{
@@ -154,6 +156,7 @@ a{
     color: #A83E35;
     width: 90%;
     margin: 0 auto;
+    text-shadow: -1px 0 #F8F6F3, 0 1px #F8F6F3, 1px 0 #F8F6F3, 0 -1px #F8F6F3;
   }
 
 .projects{
@@ -246,8 +249,11 @@ footer{
     }
     .main .projects {
       text-align: center;
+      margin-top: 20px;
     }
-
+    #greeting{
+      height: 300px;
+    }
     #greeting p{
       width: 90%;
       font-size: 120px;
@@ -258,7 +264,7 @@ footer{
 
 /*MOBILE STYLING*/
 
-@media (max-width: 650px) {
+@media (max-width: 768px) {
     .header2{
       width: 100%;
       height: 75px;
@@ -278,15 +284,19 @@ footer{
     .header__content .menu{
       position: relative;
       top: 47px;
+      width: 40%;
     }
     .header2 .header__content .menu{
       position: relative;
       top: 5px;
-      width: 60%;
+      width: 40%;
     }
     .header2 ul{
       position: relative;
-      top: 10px;
+      top: 21px;
+      left: -48px;
+      font-size: 12px;
+      width: 200px;
     }
     .header2 li {
         display: inline;
@@ -315,10 +325,11 @@ footer{
     }
     .about{
       width: 100%;
+      margin-top: 50%;
     }
 }
 
-@media (max-width: 400px){
+@media (max-width: 425px){
   .project .project__text{
     height: 100%;
     font-size: 10px;
@@ -328,7 +339,7 @@ footer{
   }
   #greeting p{
     width: 90%;
-    font-size: 30px;
+    font-size: 60px;
     letter-spacing: 25px;
   }
 }
