@@ -24,7 +24,7 @@ $(function(){
 
   // window.onload = pickBackground(0);
 
-
+// Code to show which section someone is one in header
 
   $('.project').mouseenter(function() {
     $(this).children('.project__text').toggleClass('hide').toggleClass('show');
@@ -45,6 +45,19 @@ $(function(){
     $(this).addClass('active');
     $('.projects').removeClass('hide');
     $('.projects').siblings().addClass('hide');
+  });
+
+  // Code to minimize header
+
+  $(window).scroll( function() {
+      var value = $(this).scrollTop();
+      if ( value > 200 ) {
+        $('.header').addClass('header2');
+        $('.header__content').addClass('header2__content');
+      } else {
+        $('.header').removeClass('header2');
+        $('.header__content').removeClass('header2__content');
+      }
   });
 
 })
