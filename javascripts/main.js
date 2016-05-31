@@ -6,23 +6,23 @@ $(function(){
 
   window.onload = pageLoaded();
 
-  // function changeBackground(i){
-  //   var backs = [3,2,4];
-  //   $('body').removeClass();
-  //   $('body').addClass('back'+backs[i]);
-  // }
+  function changeBackground(i){
+    var backs = [3,2,4];
+    $('section').removeClass();
+    $('section').addClass('text'+backs[i]);
+  }
 
-  // function pickBackground(num){
-  //   setInterval(function(){
-  //     num++;
-  //     if(num>2){
-  //       num = 0;
-  //     }
-  //     changeBackground(num)
-  //   }, 60000);;
-  // }
+  function pickBackground(num){
+    setInterval(function(){
+      num++;
+      if(num>2){
+        num = 0;
+      }
+      changeBackground(num)
+    }, 30000);;
+  }
 
-  // window.onload = pickBackground(0);
+  window.onload = pickBackground(0);
 
 // Code to show which section someone is one in header
 
@@ -53,10 +53,8 @@ $(function(){
       var value = $(this).scrollTop();
       if ( value > 200 ) {
         $('.header').addClass('header2');
-        $('.header__content').addClass('header2__content');
       } else {
         $('.header').removeClass('header2');
-        $('.header__content').removeClass('header2__content');
       }
   });
 
