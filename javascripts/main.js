@@ -8,8 +8,8 @@ $(function(){
 
   function changeBackground(i){
     var backs = [3,2,4];
-    $('section').removeClass();
-    $('section').addClass('text'+backs[i]);
+    $('#greeting').removeClass();
+    $('#greeting').addClass('text'+backs[i]);
   }
 
   function pickBackground(num){
@@ -19,7 +19,7 @@ $(function(){
         num = 0;
       }
       changeBackground(num)
-    }, 30000);;
+    }, 5000);;
   }
 
   window.onload = pickBackground(0);

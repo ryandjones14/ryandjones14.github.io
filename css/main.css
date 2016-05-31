@@ -107,8 +107,7 @@ a{
   background: #F8F6F3;
 }
 
-.text{
-  background: url('../images/3.jpg') center center fixed;
+#greeting{
   background-size: cover;
   width: 100%;
   height: 700px;
@@ -118,29 +117,14 @@ a{
 
 .text2{
   background: url('../images/2.jpeg') center center fixed;
-  background-size: cover;
-  width: 100%;
-  height: 700px;
-  position: relative;
-  margin: 125px 0 0 0;
 }
 
 .text3{
   background: url('../images/3.jpg') center center fixed;
-  background-size: cover;
-  width: 100%;
-  height: 700px;
-  position: relative;
-  margin: 125px 0 0 0;
 }
 
 .text4{
   background: url('../images/4.jpg') center center fixed;
-  background-size: cover;
-  width: 100%;
-  height: 700px;
-  position: relative;
-  margin: 125px 0 0 0;
 }
   .text2 p{
     position: relative;
@@ -148,6 +132,8 @@ a{
     letter-spacing: 75px;
     font-size: 200px;
     color: #AD7767;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .text3 p{
@@ -156,6 +142,8 @@ a{
     letter-spacing: 75px;
     font-size: 200px;
     color: #F8F6F3;
+    width: 90%;
+    margin: 0 auto;
   }
 
   .text4 p{
@@ -164,6 +152,8 @@ a{
     letter-spacing: 75px;
     font-size: 200px;
     color: #A83E35;
+    width: 90%;
+    margin: 0 auto;
   }
 
 .projects{
@@ -210,7 +200,6 @@ a{
   font-size: 22px;
   letter-spacing: 1px;
   line-height: 74px;
-  height: 550px;
   width: 500px;
   margin: 0 auto;
 }
@@ -259,19 +248,25 @@ footer{
       text-align: center;
     }
 
+    #greeting p{
+      width: 90%;
+      font-size: 120px;
+      letter-spacing: 25px;
+    }
+
 }
 
 /*MOBILE STYLING*/
 
 @media (max-width: 650px) {
-    .header{
+    .header2{
       width: 100%;
-      height: 125px;
+      height: 75px;
     }
-    .header .header__content{
+    .header2 .header__content{
       position: relative;
       display: inline-block;
-      width: 95%;
+      width: 100%;
     }
   /*  .header__content .hamburger{
       display: inline-block;
@@ -283,6 +278,19 @@ footer{
     .header__content .menu{
       position: relative;
       top: 47px;
+    }
+    .header2 .header__content .menu{
+      position: relative;
+      top: 5px;
+      width: 60%;
+    }
+    .header2 ul{
+      position: relative;
+      top: 10px;
+    }
+    .header2 li {
+        display: inline;
+        margin: 0px 5px;
     }
     .main{
       top: 150px;
@@ -298,6 +306,16 @@ footer{
       padding: 0;
       margin: 0 auto;
     }
+    #greeting p{
+      width: 90%;
+      font-size: 60px;
+      letter-spacing: 25px;
+      position: relative;
+      top: 30%;
+    }
+    .about{
+      width: 100%;
+    }
 }
 
 @media (max-width: 400px){
@@ -307,5 +325,10 @@ footer{
   }
   .project h3{
     font-size: 16px;
+  }
+  #greeting p{
+    width: 90%;
+    font-size: 30px;
+    letter-spacing: 25px;
   }
 }
