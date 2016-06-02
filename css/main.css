@@ -132,7 +132,19 @@ a{
   .greeting__wrapper{
     background-color: rgba(155, 155, 155, 0.45);
     height: 100%;
+    position: relative;
   }
+
+    .greeting__text{
+      position: relative;
+      top: 30%;
+    }
+
+    .greeting__arrow{
+      position: relative;
+      top: 40%;
+      color: #F8F6F3;
+    }
 
 .projects{
   width: 100%;
