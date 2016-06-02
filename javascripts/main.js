@@ -26,10 +26,10 @@ $(function(){
 
 // Code to show which section someone is one in header
 
-  $('.project').mouseenter(function() {
+  $('article').mouseenter(function() {
     $(this).children('.project__text').toggleClass('hide').toggleClass('show');
   });
-  $('.project').mouseleave(function() {
+  $('article').mouseleave(function() {
     $(this).children('.project__text').toggleClass('show').toggleClass('hide');
   });
 
