@@ -136,17 +136,7 @@ a{
 
     .greeting__text{
       position: relative;
-      top: 30%;
-    }
-
-    .greeting__arrow{
-      position: relative;
-      top: 45%;
-      color: #F8F6F3;
-    }
-
-    .greeting__arrow p{
-      font-size: 24px;
+      top: 40%;
     }
 
 .projects{
