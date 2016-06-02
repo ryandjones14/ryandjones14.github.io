@@ -114,7 +114,7 @@ a{
   background: url('../images/3.jpg') center center fixed;
   background-size: cover;
   width: 100%;
-  height: 700px;
+  height: 100vh;
   position: relative;
   margin: 125px 0 0 0;
 }
@@ -142,7 +142,7 @@ a{
 
     .greeting__arrow{
       position: relative;
-      top: 40%;
+      top: 45%;
       color: #F8F6F3;
     }
 

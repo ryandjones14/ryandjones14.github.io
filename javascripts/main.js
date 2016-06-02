@@ -56,7 +56,7 @@ var show;
 
   function addScrollArrow(){
     setTimeout(function(){
-      showArrow()}, 5000);
+      showArrow()}, 10000);
   }
 
   window.onload = addScrollArrow();
