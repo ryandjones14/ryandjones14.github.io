@@ -146,6 +146,10 @@ a{
       color: #F8F6F3;
     }
 
+    .greeting__arrow p{
+      font-size: 24px;
+    }
+
 .projects{
   width: 100%;
   font-size: 0;
@@ -226,7 +230,7 @@ footer{
       color: #ffffff;
     }
 
-@media (max-width: 824px) {
+@media (max-width: 825px) {
     .project {
       width: 70%;
       min-width: 0;
@@ -243,10 +247,14 @@ footer{
       text-align: center;
       margin-top: 20px;
     }
-    .greeting p{
+    .greeting__text{
+      position: relative;
+      top: 15%;
+    }
+    .greeting__text p{
       width: 90%;
-      font-size: 60px;
-      letter-spacing: 25px;
+      font-size: 40px;
+      letter-spacing: 15px;
     }
 
 }
