@@ -139,6 +139,11 @@ a{
       top: 40%;
     }
 
+.int__link{
+  position: relative;
+  top: -70px;
+}
+
 .projects{
   width: 100%;
   font-size: 0;
