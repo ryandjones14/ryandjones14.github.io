@@ -68,7 +68,6 @@ a{
     }
 
 .header2{
-  /*border-bottom: 1px solid #292D25;*/
   height: 65px;
   background-color: #F2F1ED;
 }
@@ -99,6 +98,16 @@ a{
     display: inline;
     margin: 0 15px;
   }
+
+  .header2 .menu__contact{
+    background-color: #292D25;
+    padding: 5px 5px;
+    border-radius: 2px;
+  }
+
+    .header2 .menu__contact a{
+      color: #F2F1ED;
+    }
 
 .main{
   max-width: 960px;
@@ -183,14 +192,23 @@ a{
 .about{
   background: rgba(248, 246, 243, .85);
   padding: 15px 10px;
-  border: 2px solid #292D25;
-  border-radius: 1px;
-  font-size: 22px;
-  letter-spacing: 1px;
-  line-height: 60px;
-  width: 60vw;
-  margin: 0 auto;
+  display: inline-block;
+  width: 100%
 }
+
+  .about__image img{
+    width: 30vw
+  }
+
+  .about__text{
+    border: 2px solid #292D25;
+    border-radius: 1px;
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 60px;
+    width: 40vw;
+    margin: 0 auto;
+  }
 
 footer{
   width: 100%;
