@@ -195,22 +195,37 @@ a{
 .about{
   background: rgba(248, 246, 243, .85);
   padding: 15px 10px;
-  display: inline-block;
-  width: 100%
+  width: 100vw;
+  position: relative;
+  right: 160px;
 }
 
-  .about__image img{
-    width: 30vw
+  .about__image {
+    width: 30%;
+    display: inline-block;
+    position: relative;
+    right: 30px;
+    bottom: 256px;
   }
+    .about__image img{
+      width: 100%;
+    }
 
   .about__text{
     border-radius: 1px;
     font-size: 16px;
     letter-spacing: 1px;
     line-height: 34px;
-    width: 60vw;
-    margin: 0 auto;
+    width: 45%;
+    height: 70vh;
+    overflow: scroll;
+    display: inline-block;
+    position: relative;
+    left: 44px;
   }
+    .about__text:hover{
+      cursor: all-scroll;
+    }
 
 footer{
   width: 100%;
@@ -261,6 +276,9 @@ footer{
       text-align: center;
       margin-top: 20px;
     }
+    .greeting{
+      background-position: center bottom;
+    }
     .greeting__text{
       position: relative;
       top: 15%;
@@ -270,7 +288,21 @@ footer{
       font-size: 40px;
       letter-spacing: 15px;
     }
-
+    .about__image{
+      display: block;
+      width: 80%;
+      position: relative;
+      bottom: 0;
+      right: 0;
+      margin: 0 auto;
+    }
+    .about__text{
+      display: block;
+      width: 90%;
+      position: relative;
+      left: 0;
+      margin: 15px auto 0 auto;
+    }
 }
 
 /*MOBILE STYLING*/
@@ -340,7 +372,9 @@ footer{
     }
     .about{
       width: 100%;
-      margin-top: 50%;
+      margin-top: 14%;
+      position: relative;
+      right: 0;
     }
 }
 

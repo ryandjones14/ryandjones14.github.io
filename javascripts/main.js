@@ -1,24 +1,6 @@
 $(function(){
 
-  // function changeBackground(i){
-  //   var backs = [3,2,4];
-  //   $('#greeting').removeClass();
-  //   $('#greeting').addClass('text'+backs[i]);
-  // }
-
-  // function pickBackground(num){
-  //   setInterval(function(){
-  //     num++;
-  //     if(num>2){
-  //       num = 0;
-  //     }
-  //     changeBackground(num)
-  //   }, 30000);;
-  // }
-
-  // window.onload = pickBackground(0);
-
-// Code to show which section someone is one in header
+// Code to pop up text for projects
 
   $('article').mouseenter(function() {
     $(this).children('.project__text').toggleClass('hide').toggleClass('show');
@@ -26,6 +8,8 @@ $(function(){
   $('article').mouseleave(function() {
     $(this).children('.project__text').toggleClass('show').toggleClass('hide');
   });
+
+  // Code to show which section someone is one in header
 
   $('.menu__about').on('click', function() {
     $(this).siblings().removeClass('active');
