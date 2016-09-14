@@ -443,7 +443,7 @@ footer{
   .header2 ul{
     position: relative;
     top: 6px;
-    left: 0px;
+    left: -60px;
     font-size: 12px;
     width: 100%;
   }
