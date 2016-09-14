@@ -76,6 +76,7 @@ h1{
 
   .menu__icon {
     display: none;
+    font-size: 24px;
   }
   a:hover.menu__icon {
     background-color: #444;
@@ -352,9 +353,15 @@ footer{
       float: left;
       bottom: -20px;
     }
+    .menu {
+      position: relative;
+      left: 130px;
+      bottom: 80px;
+    }
     .header2 .menu {
-      left: 100px;
-      bottom: 30px;
+      position: relative;
+      left: 130px;
+      bottom: 34px;
     }
     .header2 .intro h1{
       position: relative;
