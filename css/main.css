@@ -78,10 +78,6 @@ h1{
     display: none;
     font-size: 24px;
   }
-  a:hover.menu__icon {
-    background-color: #444;
-    border-radius: 4px 4px 0 0;
-  }
 
 .header2{
   height: 65px;
