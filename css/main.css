@@ -8,7 +8,7 @@ body{
   font-family: 'Lato', sans-serif;
   text-align: center;
   color: #292D25;
-  background-color: #F8F6F3;
+  background-color: #fff;
   overflow: scroll;
   position: relative;
   min-height: 100%;
@@ -29,7 +29,7 @@ h1{
 }
 
 .header{
-  background: #F8F6F3;
+  background: #fff;
   width: 100%;
   height: 125px;
   position: fixed;
@@ -81,7 +81,7 @@ h1{
 
 .header2{
   height: 65px;
-  background-color: #F2F1ED;
+  background-color: #f1f1f1;
 }
 
   .header2 .intro{
@@ -127,7 +127,7 @@ h1{
   position: relative;
   top: 200px;
   margin: -150px auto 80px auto;
-  background: #F8F6F3;
+  background: #fff;
 }
 
 .greeting{
@@ -144,7 +144,7 @@ h1{
     top: 30%;
     letter-spacing: 10px;
     font-size: 40px;
-    color: #F8F6F3;
+    color: #fff;
     width: 90%;
     margin: 0 auto;
   }
@@ -268,7 +268,7 @@ footer{
     }
 
     footer a:hover{
-      color: #ffffff;
+      color: #fff;
     }
 
 @media (max-width: 825px) {
