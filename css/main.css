@@ -1,14 +1,14 @@
 body{
   font-family: 'Lato', sans-serif;
-  color: #706F6F;
-  background-color: rgb(145, 215, 145);
+  color: #565656;
+  /* background-color: #cd7c57; */
+  background: linear-gradient(to bottom right, #e4b5a0, 34%, #cd7c57);
   display: flex;
   flex-direction: column;
 }
 
-h1{
+h1 {
   font-family: 'Fjalla One',sans-serif;
-  
 }
 
 .header{
@@ -39,18 +39,17 @@ ul {
 }
 
 .section{
+  color: #333333;
   width: 27%;
-  background-color: #F3D8DB;
+  background-color: #c1c6ab;
   margin: 3px 13px;
   padding: 3px 7px;
-  border: solid 1px #706F6F;
-  border-radius: 2%;
   font-size: 16px;
   flex-basis: auto;
+  box-shadow: 3px 3px 1px #a4a891;
 }
 
 .section-title {
-  color: #171817;
   font-size: 27px;
   margin-bottom: 9px;
 }
