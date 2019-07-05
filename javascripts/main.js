@@ -20,8 +20,8 @@ function handleClick(event) {
   bounce(letterClicked);
 };
 
+let solLetters = ['b', 'a', 'g', 'e', 'l'];
 function bounce(letter = '') {
-  let solLetters = ['b', 'a', 'g', 'e', 'l'];
   if (letter) {
     solLetters.splice(solLetters.indexOf(letter), 1);
   }
