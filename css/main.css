@@ -79,7 +79,7 @@ a {
 .bounce {
   animation-duration: 1s;
   animation-name: bounce;
-  animation-iteration-count: 2;
+  animation-iteration-count: infinite;
 }
 
 .solution-letter:hover {
